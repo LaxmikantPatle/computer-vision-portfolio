@@ -1,0 +1,15 @@
+path: ../dataset  # dataset root relative to this folder (can point to absolute path if needed)
+train: images/train
+val: images/val
+test: images/test
+
+nc: 2  # number of classes
+names: ['helmet', 'no-helmet']
+
+# optional
+roboflow:
+  workspace: null
+  project: null
+  version: null
+  license: null
+  url: null
